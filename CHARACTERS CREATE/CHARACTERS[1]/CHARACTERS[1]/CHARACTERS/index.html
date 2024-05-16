@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text</title>
+    <Style type = "text/CSS">
+        canvas{
+            border: 5px solid black;
+            background-color: bisque;
+        }
+        img{
+            display: none;
+        } 
+        .button{
+            background-color: rgb(255, 196, 216);
+            font-size: 50px;
+            color: rgb(0, 0, 237);
+            border-radius: 30px;
+            border-color: blueviolet;
+        }
+
+    </Style>
+    <img src = "./images.png" alt="">
+</head>
+<body>
+    <button
+    id = "spawnButton"
+    onclick="create();"
+    class = "button"
+    >CREATE</button>
+
+    <canvas
+    id = "my canv"
+    width = "640"
+    height = "640"
+
+    style = " 
+    border: 5px solid black;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%);
+    position: absolute;"
+    ></canvas>
+    <script src = "main.js"></script>
+       
+
+
+ 

@@ -1,0 +1,18 @@
+.game-over{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 40vw;
+    width: 40vw;
+    border: 3px solid red;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+span{
+    color:  red;
+    font-size: 200px;
+
+}
