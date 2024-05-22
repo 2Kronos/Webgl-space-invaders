@@ -1,6 +1,7 @@
 ## Space invaders
+- Access the latest version of the game which is SPACE INVADERS V6 
 
-
+![Screenshot 2024-05-17 001455](https://github.com/2Kronos/Webgl-space-invaders/assets/163877990/f8c607bc-8f1d-43bb-a9e8-9b53480e1a6d)
 
 
 ## Table of Contents
@@ -33,11 +34,16 @@
 - Scaling matrix is used.
 
 ## Character createe
+- This file has the code to create a row and column of new aleins everytime the create button is pressed.
 
+## Predefined movemnts
+- This contains the code for how the aleins will move around in the canvas
 
-- Utilsing webgl primitives to draw.
-- Drawing multiple shapes on 1 canvas
-
+## Shooting
+- Thic code contains the shooting function of the ship.
+## Space invader Version
+- These file contains the different version of space invader I created while creating the game.
+- The latest versioin is the most up to date version of the game.
 
 
 # Contributing 
@@ -51,10 +57,10 @@ to discuss what you would like to change.
 
 ```bash
 # Clone the repository
-git clone https://github.com/2Kronos/Webgl-Cyber-Truck.git
+git clone https://github.com/2Kronos/Webgl-space-invaders.git
 
 # Navigate to the project directory
-cd Webgl-Cyber-Truck
+cd Webgl-space-invaders
 
 
 # Install dependencies
@@ -70,5 +76,5 @@ Install the live server extension.
 # Acknowledgements
 
 - I learned how to use the webgl primitives at https://webglfundamentals.org/docs/module-primitives.html
+- I got inspriration for the game at https://github.com/ImKennyYip/space-invaders
 
-![Screenshot 2024-05-17 001455](https://github.com/2Kronos/Webgl-space-invaders/assets/163877990/f8c607bc-8f1d-43bb-a9e8-9b53480e1a6d)
